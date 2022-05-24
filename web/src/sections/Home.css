@@ -1,0 +1,47 @@
+.centerDynamicElement{
+    height: 100vh;
+}
+
+.centerDynamicElement h1 {
+    text-align: center;
+    padding-bottom: 25px;
+    width: 600px;
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.486);
+}
+
+.centerDynamicElement div, h1 {
+    top:  40vh !important;
+    left: 40px;
+}
+
+.centerDynamicElement span {
+    font-size: 48px;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: rgb(1, 192, 192);
+}
+
+@media only screen and (max-width: 650px) {
+    .centerDynamicElement span {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .centerDynamicElement span {
+        font-size: 20px;
+    }
+    
+    .centerDynamicElement h1 {
+        font-size: 24px;
+    }
+
+    .centerDynamicElement div, h1 {
+        left: 2px;
+    }
+}
+
+

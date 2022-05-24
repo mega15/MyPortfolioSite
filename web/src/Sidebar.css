@@ -1,0 +1,136 @@
+.sidebar {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    min-height: 100vh !important;
+    z-index: 100;
+    padding: 48px 0 0;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+.copyright{
+    color: white;
+    text-align: center;
+    font-size: x-small;
+    margin-top: 80%;
+}
+
+.sidebar .social-icon{
+    margin: 10px;
+}
+
+.sblinks{
+    margin-left: 30px;
+    text-align: left;
+}
+
+.nav{
+    text-align: center;
+}
+
+.sidebar img {
+    width: 160px;
+    border: 2px solid #777a8f;
+    margin: 15px auto;
+}
+
+.sidebar hr {
+    color: rgb(70, 211, 211);
+    margin: 30px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.nav-item {
+    margin: 10px;
+}
+
+.nav-item a {
+    color: rgb(179, 190, 190);
+    text-decoration: none;
+    white-space:initial;
+    transition: color .4s ease-out;
+}
+
+.sidebar .active a {
+    color: rgb(231, 231, 231);
+    text-decoration: none;
+}
+
+.sidebar .selected a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.sidebar svg {
+    transition: color .4s ease-out;
+}
+
+
+.sidebar .selected svg {
+    color: rgb(0, 255, 255);
+}
+
+.sidebar .active svg {
+    color: rgb(0, 211, 211);
+}
+
+.sbicon{
+    color: rgb(63, 175, 175);
+    margin-bottom: 4px;
+    margin-right: 4px;
+}
+
+.logo-my-name{
+    color: white;
+    font-weight: bold;
+    margin: 15px auto;
+}
+
+.xs-logo-my-name {
+    display: none;
+}
+
+.logo-my-name:hover{
+    color: white;
+}
+
+@media only screen and (max-width: 1400px) {
+    .sidebar img {
+        width: 60px;
+    }
+
+    .nav-item {
+        font-size: 0;
+        text-align: center;
+    }
+}
+
+
+@media only screen and (max-width: 576px) {
+    .logo-my-name {
+        font-size: 0;
+    }
+
+    .xs-logo-my-name {
+        display:block;
+        margin-left: 10px;
+    }
+
+    .copyright{
+        font-size: 0;
+    }
+
+    .sblinks{
+        margin-left: 0;
+        text-align: left;
+    }
+
+    .sidebar img {
+        display: none;
+    }
+}
+

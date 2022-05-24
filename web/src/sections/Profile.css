@@ -1,0 +1,26 @@
+.profile-section{
+    overflow-y: scroll;
+    width: 100%;
+    color: black;
+    height: 100vh;
+    background-color: rgb(238, 233, 212);
+    padding: 25px;
+}
+
+.profile-section hr{
+    border: 2px solid  rgb(104, 88, 27);
+}
+
+.profile-section h4 {
+    color: rgb(153, 122, 0);
+}
+
+.profile-section table, tr, td{
+    border: none !important;
+    margin: 0;
+}
+
+.profile-topic{
+    color: rgb(153, 122, 0);
+}
+

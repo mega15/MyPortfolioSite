@@ -1,0 +1,15 @@
+.section{
+    min-height: 100vh !important;
+    top: 0;
+    bottom: 0;
+    background-color: transparent;
+    color: white;
+}
+
+.first-section{
+    border-top-left-radius: 25px;
+}
+
+.last-section{
+    border-bottom-left-radius: 25px;
+}

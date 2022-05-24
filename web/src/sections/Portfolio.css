@@ -1,0 +1,63 @@
+.portfolio-section{
+    overflow-y: scroll;
+    width: 100%;
+    color: black;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.portfolio-project-contaner{
+    height: 50vh;
+    background-color: rgb(221, 221, 221);
+    border: 4px;
+    border-style: solid;
+    border-color: rgb(1, 204, 204);
+    padding: 0;
+}
+
+.portfolio-project {
+    height: 100%;
+    width: 100%;
+    transition: all .5s;
+}
+
+.portfolio-project-contaner:hover .portfolio-project,
+.portfolio-project-contaner:focus .portfolio-project {
+  transform: scale(1.2);
+}
+
+.portfolio-project::before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(52, 73, 94, 0.75);
+  }
+  
+  .portfolio-project-contaner:hover .portfolio-project:before,
+  .portfolio-project-contaner:focus .portfolio-project:before {
+    display: block;
+  }
+
+  .portfolio-project span {
+      font-size: 24px;
+      font-weight: bold;
+      color: white; /* Good thing we set a fallback color! */
+      font-family: sans-serif;
+      padding: 20% 25%;
+      position: absolute;
+      display: none;
+      text-align: center;
+  }
+
+  .portfolio-project span strong {
+      color: rgb(0, 194, 194);
+  }
+
+  .portfolio-project-contaner:hover span,
+  .portfolio-project-contaner:focus span {
+    display: block;
+  }

@@ -1,0 +1,9 @@
+.section-container{
+    overflow-y: scroll;
+    height:100vh !important;
+    width: 100%;
+}
+
+.sidebar-wrapper{
+    padding: 0;
+}

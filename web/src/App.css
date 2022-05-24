@@ -1,0 +1,33 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.App {
+  font-family: 'Cantata One', serif;
+  background-color: rgb(230, 230, 230);
+}
+
+.container-fluid{
+  padding-left: 0px!important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:  rgb(5, 150, 150);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
