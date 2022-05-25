@@ -5,6 +5,10 @@
     padding: 200px 50px;
 }
 
+.contact-section label {
+    color:rgb(173, 173, 173)
+}
+
 .contact-section h2 {
     font-weight: bold;
     color: rgb(255, 255, 255);

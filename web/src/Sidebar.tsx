@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import {Nav, Navbar} from "react-bootstrap";
-import { Link, useLocation,NavLink } from "react-router-dom";
+import { useLocation,NavLink } from "react-router-dom";
 import Image from "react-bootstrap/Image";
 import { BiHome, BiUser, BiDesktop, BiMailSend } from "react-icons/bi";
-import { BsLinkedin, BsFacebook } from "react-icons/bs";
+import { BsLinkedin, BsGithub } from "react-icons/bs";
 
 import './Sidebar.css';
 import SidebarLogo from "./img/sidebarLogo.png"
@@ -27,8 +27,8 @@ function Sidebar() {
                 </Nav.Item>
 
             <Nav.Item>
-            <Link className="social-icon" to="/"><BsLinkedin size={24} className="sbicon" /></Link>
-            <Link className="social-icon" to="/"><BsFacebook size={24} className="sbicon" /></Link>
+            <a className="social-icon" href="https://www.linkedin.com/in/andres-mauricio-gonzalez-galindo-98101950/?locale=en_US" target="_blank" rel="noopener noreferrer"><BsLinkedin size={24} className="sbicon" /></a>
+            <a className="social-icon" href="https://github.com/mega15" target="_blank" rel="noopener noreferrer"><BsGithub size={24} className="sbicon" /></a>
                 </Nav.Item>
             
             <hr />

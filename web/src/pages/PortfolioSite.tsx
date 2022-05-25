@@ -76,7 +76,7 @@ export default function PortfolioSite(){
                         </ul>
                         <h3>Check the code</h3>
                     <p>
-                    If you want to check this code please go to my github, click <a href="#/contact">here</a>.
+                    If you want to check this code please go to my github, click <a href="https://github.com/mega15/MyPortfolioSite" target="_blank" rel="noopener noreferrer">here</a> (master branch).
                     </p>
                     </Card>
             </div>

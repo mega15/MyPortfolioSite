@@ -48,6 +48,10 @@
     margin: 10px;
 }
 
+a:hover{
+    background-color:transparent!important
+}
+
 .nav-item a {
     color: rgb(179, 190, 190);
     text-decoration: none;

@@ -13,7 +13,7 @@ export default function Profile(){
                         <tbody>
                             <tr>
                                 <td>Email</td>
-                                <td><a href="mega15@gmail.com">Email me</a></td>
+                                <td><a href="mailto:mega15@gmail.com">Email me</a></td>
                             </tr>
                             <tr>
                                 <td>Linkedin</td>

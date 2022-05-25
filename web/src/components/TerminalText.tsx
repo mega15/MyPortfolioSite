@@ -31,7 +31,7 @@ export default function TerminalText(props:{texts:string[]}) {
                     setScreenText(screenText+word[charIndex]);
                     setCharIndex(charIndex+1);
                 }
-                else if (isFowards && charIndex == word.length){
+                else if (isFowards && charIndex === word.length){
                     await delay(finalOfWord);
                     setSpeed(backwardsSpeed);
                     setIsFowards(false);
